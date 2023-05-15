@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;900&family=Montserrat:wght@500;600;700;900&family=Open+Sans:wght@400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    place-content: center;
+    background-image: url(clock.jpg);
+    background-color: rgba(209, 195, 195, 0.4);
+    background-size: cover;
+    background-position: 100px;
+    background-blend-mode: color-burn;
+}
+
+.container {
+    width: 700px;
+    display: grid;
+    padding: 3em;
+    border-radius: 10px;
+    background-color: rgba(37, 88, 24, 0.8);
+    color: white;
+}
+
+.title {
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+
+label {
+    font-size: 1.4rem;
+    margin: 5px 18px;
+}
+
+input {
+    font-size: 1.4rem;
+    padding: 0.5em 0.9em;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 0.7em;
+    outline: none;
+}
+
+button {
+    background-color: rgb(117, 177, 117);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.7em;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgba(37, 88, 24, 0.8);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* ---------
+COUNTDOWN
+----------*/
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time p {
+    font-size: 1.4rem;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: em;
+}

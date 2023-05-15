@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container main" style="display: grid">
+        <h1 class="title">Create a Custom Countdown</h1>
+        <label for="text-inp">Title</label>
+        <input id="text-inp" type="text" />
+        <label for="date-inp">Select a Date</label>
+        <input type="date" id="date-inp" />
+        <button class="submit">Submit</button>
+      </div>
+      <div class="container countdown" style="display: none">
+        <h1 class="title countdown-title">TiTle</h1>
+        <div class="time">
+          <p>Days<span>00</span></p>
+          <p>Hours<span>00</span></p>
+          <p>Minutes<span>00</span></p>
+          <p>Seconds<span>00</span></p>
+        </div>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
